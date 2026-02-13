@@ -3,12 +3,12 @@
 ========================================== */
 
 const tasks = [
-    { id: 1, title: "Grouped Bar Chart", description: "Average Rating vs Total Reviews", time: [0, 24] },
-    { id: 2, title: "Choropleth Chart", description: "Top Categories by Global Installs", time: [0, 24] },
-    { id: 3, title: "Dual Axis Chart", description: "Free vs Paid Installs & Revenue", time: [0, 24] },
-    { id: 4, title: "Time Series Chart", description: "Install Trends with Growth Highlights", time: [0, 24] },
-    { id: 5, title: "Bubble Chart", description: "App Size vs Rating Analysis", time: [0, 24] },
-    { id: 6, title: "Stacked Area Chart", description: "Cumulative Installs Over Time", time: [0, 24] }
+    { id: 1, title: "Grouped Bar Chart", description: "Average Rating vs Total Reviews", time: [15, 17] },
+    { id: 2, title: "Choropleth Chart", description: "Top Categories by Global Installs", time: [18, 20] },
+    { id: 3, title: "Dual Axis Chart", description: "Free vs Paid Installs & Revenue", time: [13, 14] },
+    { id: 4, title: "Time Series Chart", description: "Install Trends with Growth Highlights", time: [18, 21] },
+    { id: 5, title: "Bubble Chart", description: "App Size vs Rating Analysis", time: [17, 19] },
+    { id: 6, title: "Stacked Area Chart", description: "Cumulative Installs Over Time", time: [16, 18] }
 ];
 
 
