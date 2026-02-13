@@ -1,0 +1,69 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Chart View</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:#0f172a; color:white;">
+
+<div style="text-align:center; padding:30px;">
+    <h1 id="chart-title"></h1>
+</div>
+
+<div id="chart" style="width:95%;height:85vh;margin:auto;"></div>
+
+<script>
+const titles = {
+    1: "Grouped Bar Chart – Average Rating vs Total Reviews",
+    2: "Choropleth Chart – Global Installs by Category",
+    3: "Dual Axis Chart – Free vs Paid Revenue",
+    4: "Time Series Chart – Install Trends",
+    5: "Bubble Chart – Size vs Rating",
+    6: "Stacked Area Chart – Cumulative Installs"
+};
+
+const params = new URLSearchParams(window.location.search);
+const taskId = params.get("task");
+
+document.getElementById("chart-title").innerText = titles[taskId];
+
+fetch(`exports/task${taskId}.json`)
+  .then(res => res.json())
+  .then(fig => {
+
+      fig.layout.margin = { t: 40, l: 70, r: 50, b: 70 };
+      fig.layout.paper_bgcolor = "#0f172a";
+      fig.layout.plot_bgcolor = "#0f172a";
+      fig.layout.font = { color: "white" };
+
+      Plotly.newPlot("chart", fig.data, fig.layout);
+  });
+</script>
+
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Plotly CDN -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+
+<div class="chart-page">
+    <div class="chart-container">
+        <h1 id="chart-title" class="chart-heading"></h1>
+        <div id="chart" class="chart-box"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
