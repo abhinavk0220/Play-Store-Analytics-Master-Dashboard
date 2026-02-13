@@ -15,9 +15,9 @@
 ## 🌐 Live Dashboard
 
 🔗 **Live Project:**  
-👉 [https://abhinaVK0220.github.io/YOUR-REPO-NAME](https://abhinaVK0220.github.io/YOUR-REPO-NAME)
+👉 [https://abhinaVK0220.github.io/YOUR-REPO-NAME]((https://abhinavk0220.github.io/Play-Store-Analytics-Master-Dashboard/))
 
-> ⚠️ *Replace with your actual deployed link*
+
 
 ---
 
@@ -219,7 +219,9 @@ This ensures **analytical correctness** and **ethical data handling**.
 
 ### 📊 Sample Chart Preview
 
+![Chart Preview](./previews/task1.png)
 ![Chart Preview](./previews/task3.png)
+![Chart Preview](./previews/task5.png)
 
 ---
 
